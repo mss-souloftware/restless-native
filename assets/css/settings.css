@@ -1,0 +1,12 @@
+:root {
+    --theme-color: #104494;
+    --dark-color: #000;
+    --light-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
