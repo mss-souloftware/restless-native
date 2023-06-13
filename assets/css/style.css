@@ -1,3 +1,46 @@
 @import url('./settings.css');
 
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(https://design2seo.com/assets/blog/svg-clipping/home_intro_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: white;
+}
 
+
+.videoWrapper {
+    position: relative;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.videoWrapper .clipped-video {
+    -webkit-clip-path: url(#text-overlay);
+    clip-path: url(#text-overlay);
+}
+
+.videoWrapper .clipped-video video {
+    width: 100%;
+    height: auto;
+}
+
+.videoWrapper svg {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.videoWrapper svg text {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10vw;
+}
